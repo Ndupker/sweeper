@@ -1,0 +1,120 @@
+get Non VR build for PC as well
+
+3Dmode
+	sweep mode
+	help the user see what is happening
+		if text is only near marked mines then fade to half vis and set to gray?
+		not sure if this is nessesary?
+	when creating 3D maps only allow the spawn point to be from the edge
+
+Menu updates
+	background for "Game Win/Lose" as it overlaps with the map
+	
+Test/fix up for phone and build to it
+	will need to fix up the input code
+
+
+"Boom" text when a mine blows up for now
+	M dissapears and boom gets bigger then slows and fades
+Gen log
+	add 2D/3D and map size
+2D art
+3D art
+
+Hint system
+	use with "where did I go wrong" button on loss screen 
+
+After 16ms or other amount of time pause a solve to allow render
+	this would make auto gen much nicer
+autogen bugs
+	randomly picking a spot seems to favor edges?
+	Failed to generate any mines onetime?
+	Getting a boom log when generating somehow?
+Loading autogend files
+	make it so it grabs one that suits a tapped place
+		create a gen method that fills in any gaps
+		from the free spots files?
+			is this created wrong for this?
+		do some tests to check if we could switch to any of the other empty spots on the map and it would still be solveable?
+	store enough files to make this nice (1000+?)
+		56 kb for 1000 so storage is no biggy
+		how long will this take to load /interpret
+	fallbacks
+		get closest one
+		default to random gen
+			somehow tell the player about this?
+Different map sizes
+	current is medium or hard?
+	easy/med/hard
+	look at other apps for this
+	big one like the Black/White app we have?
+	hard size? (27x48 220 bombs)
+
+(2D)Zoom in/out with pinch
+	would be really nice if we want to add bigger maps
+	
+Compare if max border or gen time relate to difficulty/fun
+	investigate if these are connected
+	if longer gen times tend to equal more interesting ones then we could do these:
+		look into a "harder mode" of lots of high gen time puzzles
+		look into making higher gen time puzzles
+		re-look into optimising generation
+AR
+	Different app or same with AR menu option?
+
+
+//generate some 444-6 maps
+//Get PC build working
+//VR
+	//hold grip to rotate?
+	//	left grip?
+	//hold grip to move
+	//	IS wrong way round !
+	//	right grip?
+	//UI
+	//	very buggy?
+	//Haptics when moving over tiles
+	//	test reduced haptics?
+	//add Mine counter to left controller
+	//UI
+	//	win/lose
+	//	play again/main menu buttons
+	//	menu
+	//decide on a scale 
+	//	10 seems okay for now
+	//left to mark and right to clear?
+	//highlight current cell based off of which block your hand is inside
+	//import VR package
+	//show controllers
+//3Dmode
+	//Add 2D or 3D options to Main menu
+	//Save some maps?
+	//Make text always face towards user
+	//yellow texture for marked mines?
+	//clear/mark with raycasts
+	//	add collider script to each 3D cell to handle this?
+	//mouse controls version
+	//	hold (left?) mouse to rotate
+	//3D Map generated
+	//Cubes
+//actually add failure
+//add win state
+//Auto gen log (for comparing if max border or gen time relate to difficulty/fun)
+//	store in a file for each Day
+//	Store:
+//		time (basically store file name)
+//		max border cells
+//		gen time
+//mine count in corner?
+//	add counter in script
+//	bug with mine count not being reset
+//Storing generated maps
+	//binary files
+	//have a mode where it runs off and generates lots of maps
+	//creating bytes/creating from bytes
+
+//Giving up on a solve if it takes more than 10 seconds
+
+//auto Solving where it uses how many "can" exist to solve
+//	(like the online always solvable example)
+//	if all mines found, solved

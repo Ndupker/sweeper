@@ -1,0 +1,352 @@
+
+Name: 18-43-36_22-12-2020
+    Max Border Cells: 33
+    Duration: 5.8981834
+Name: 18-44-31_22-12-2020
+    Max Border Cells: 43
+    Duration: 53.4808369
+Name: 18-44-56_22-12-2020
+    Max Border Cells: 42
+    Duration: 23.0275364
+Name: 18-45-34_22-12-2020
+    Max Border Cells: 38
+    Duration: 34.9851517
+Name: 18-47-56_22-12-2020
+    Max Border Cells: 35
+    Duration: 18.9722051
+Name: 18-48-01_22-12-2020
+    Max Border Cells: 34
+    Duration: 3.8507103
+Name: 18-48-53_22-12-2020
+    Max Border Cells: 34
+    Duration: 49.6075694
+Name: 18-49-40_22-12-2020
+    Max Border Cells: 47
+    Duration: 44.9645281
+Name: 18-50-35_22-12-2020
+    Max Border Cells: 38
+    Duration: 53.2960537
+Name: 18-50-44_22-12-2020
+    Max Border Cells: 33
+    Duration: 6.7152634
+Name: 18-50-49_22-12-2020
+    Max Border Cells: 26
+    Duration: 3.5960693
+Name: 18-50-59_22-12-2020
+    Max Border Cells: 30
+    Duration: 7.7427562
+Name: 18-52-06_22-12-2020
+    Max Border Cells: 45
+    Duration: 65.168282
+Name: 18-52-53_22-12-2020
+    Max Border Cells: 41
+    Duration: 44.7966994
+Name: 18-52-57_22-12-2020
+    Max Border Cells: 24
+    Duration: 2.2486053
+Name: 18-55-02_22-12-2020
+    Max Border Cells: 26
+    Duration: 1.6876506
+Name: 18-55-17_22-12-2020
+    Max Border Cells: 42
+    Duration: 13.7284363
+Name: 18-55-24_22-12-2020
+    Max Border Cells: 36
+    Duration: 4.4287411
+Name: 18-55-28_22-12-2020
+    Max Border Cells: 26
+    Duration: 2.2725637
+Name: 18-55-44_22-12-2020
+    Max Border Cells: 32
+    Duration: 14.5890362
+Name: 18-56-07_22-12-2020
+    Max Border Cells: 37
+    Duration: 21.0559736
+Name: 18-56-15_22-12-2020
+    Max Border Cells: 25
+    Duration: 5.7523861
+Name: 18-56-25_22-12-2020
+    Max Border Cells: 44
+    Duration: 8.1689097
+Name: 18-56-30_22-12-2020
+    Max Border Cells: 26
+    Duration: 2.4721907
+Name: 18-57-15_22-12-2020
+    Max Border Cells: 39
+    Duration: 43.0657501
+Name: 18-57-37_22-12-2020
+    Max Border Cells: 45
+    Duration: 20.5495572
+Name: 18-57-43_22-12-2020
+    Max Border Cells: 45
+    Duration: 4.0557867
+Name: 18-57-53_22-12-2020
+    Max Border Cells: 38
+    Duration: 7.9589487
+Name: 18-59-58_22-12-2020
+    Max Border Cells: 22
+    Duration: 2.0310667
+Name: 19-00-02_22-12-2020
+    Max Border Cells: 28
+    Duration: 2.0492028
+Name: 19-00-11_22-12-2020
+    Max Border Cells: 28
+    Duration: 6.9738524
+Name: 19-02-56_22-12-2020
+    Max Border Cells: 39
+    Duration: 42.6396254
+Name: 19-03-04_22-12-2020
+    Max Border Cells: 28
+    Duration: 5.8303104
+Name: 19-03-09_22-12-2020
+    Max Border Cells: 34
+    Duration: 2.3883501
+Name: 19-03-13_22-12-2020
+    Max Border Cells: 25
+    Duration: 2.83077
+Name: 19-05-33_22-12-2020
+    Max Border Cells: 44
+    Duration: 16.9552803
+Name: 19-05-52_22-12-2020
+    Max Border Cells: 41
+    Duration: 17.3067488
+Name: 19-06-11_22-12-2020
+    Max Border Cells: 36
+    Duration: 16.8881439
+Name: 19-06-45_22-12-2020
+    Max Border Cells: 32
+    Duration: 32.0392015
+Name: 19-06-51_22-12-2020
+    Max Border Cells: 32
+    Duration: 3.5407756
+Name: 19-09-34_22-12-2020
+    Max Border Cells: 41
+    Duration: 40.5087748
+Name: 19-10-02_22-12-2020
+    Max Border Cells: 39
+    Duration: 25.9770014
+Name: 19-10-14_22-12-2020
+    Max Border Cells: 36
+    Duration: 10.1739794
+Name: 19-10-41_22-12-2020
+    Max Border Cells: 41
+    Duration: 25.2853632
+Name: 19-13-40_22-12-2020
+    Max Border Cells: 47
+    Duration: 55.7951602
+Name: 19-13-54_22-12-2020
+    Max Border Cells: 31
+    Duration: 11.9298266
+Name: 19-14-10_22-12-2020
+    Max Border Cells: 44
+    Duration: 13.7666741
+Name: 19-16-20_22-12-2020
+    Max Border Cells: 26
+    Duration: 6.787954
+Name: 19-16-27_22-12-2020
+    Max Border Cells: 31
+    Duration: 6.0055096
+Name: 19-17-02_22-12-2020
+    Max Border Cells: 39
+    Duration: 32.6402983
+Name: 19-17-07_22-12-2020
+    Max Border Cells: 26
+    Duration: 2.9247188
+Name: 19-17-15_22-12-2020
+    Max Border Cells: 36
+    Duration: 6.0244199
+Name: 19-19-06_22-12-2020
+    Max Border Cells: 47
+    Duration: 109.4212963
+Name: 19-19-18_22-12-2020
+    Max Border Cells: 35
+    Duration: 9.4391442
+Name: 19-19-24_22-12-2020
+    Max Border Cells: 33
+    Duration: 4.0216043
+Name: 19-19-34_22-12-2020
+    Max Border Cells: 31
+    Duration: 8.2510314
+Name: 19-21-01_22-12-2020
+    Max Border Cells: 38
+    Duration: 84.8081848
+Name: 19-21-59_22-12-2020
+    Max Border Cells: 44
+    Duration: 56.4597587
+Name: 19-22-06_22-12-2020
+    Max Border Cells: 37
+    Duration: 5.2524002
+Name: 19-22-40_22-12-2020
+    Max Border Cells: 34
+    Duration: 32.4008498
+Name: 19-22-45_22-12-2020
+    Max Border Cells: 25
+    Duration: 2.7701987
+Name: 19-22-51_22-12-2020
+    Max Border Cells: 32
+    Duration: 3.9920836
+Name: 19-23-23_22-12-2020
+    Max Border Cells: 41
+    Duration: 30.1593997
+Name: 19-23-27_22-12-2020
+    Max Border Cells: 30
+    Duration: 2.2932487
+Name: 19-23-44_22-12-2020
+    Max Border Cells: 38
+    Duration: 15.026596
+Name: 19-23-56_22-12-2020
+    Max Border Cells: 36
+    Duration: 10.1251432
+Name: 19-24-06_22-12-2020
+    Max Border Cells: 34
+    Duration: 7.5428007
+Name: 19-24-20_22-12-2020
+    Max Border Cells: 29
+    Duration: 11.6624852
+Name: 19-24-24_22-12-2020
+    Max Border Cells: 25
+    Duration: 3.0211138
+Name: 19-24-39_22-12-2020
+    Max Border Cells: 35
+    Duration: 12.2491468
+Name: 19-24-44_22-12-2020
+    Max Border Cells: 28
+    Duration: 3.3645333
+Name: 19-24-51_22-12-2020
+    Max Border Cells: 30
+    Duration: 5.2150707
+Name: 19-25-19_22-12-2020
+    Max Border Cells: 46
+    Duration: 25.856947
+Name: 19-25-24_22-12-2020
+    Max Border Cells: 27
+    Duration: 2.8866329
+Name: 19-25-34_22-12-2020
+    Max Border Cells: 37
+    Duration: 8.1544077
+Name: 19-25-38_22-12-2020
+    Max Border Cells: 21
+    Duration: 2.4401855
+Name: 19-25-56_22-12-2020
+    Max Border Cells: 35
+    Duration: 15.8535642
+Name: 19-26-19_22-12-2020
+    Max Border Cells: 33
+    Duration: 20.7230446
+Name: 19-26-30_22-12-2020
+    Max Border Cells: 33
+    Duration: 9.5190505
+Name: 19-28-37_22-12-2020
+    Max Border Cells: 26
+    Duration: 3.8226854
+Name: 19-28-44_22-12-2020
+    Max Border Cells: 26
+    Duration: 4.7184624
+Name: 19-28-56_22-12-2020
+    Max Border Cells: 37
+    Duration: 10.2215732
+Name: 19-29-02_22-12-2020
+    Max Border Cells: 27
+    Duration: 4.1000241
+Name: 19-29-08_22-12-2020
+    Max Border Cells: 25
+    Duration: 4.2999663
+Name: 19-29-13_22-12-2020
+    Max Border Cells: 28
+    Duration: 3.5552305
+Name: 19-29-21_22-12-2020
+    Max Border Cells: 35
+    Duration: 5.3020247
+Name: 19-30-20_22-12-2020
+    Max Border Cells: 45
+    Duration: 56.9376366
+Name: 19-30-26_22-12-2020
+    Max Border Cells: 27
+    Duration: 4.1780996
+Name: 19-31-56_22-12-2020
+    Max Border Cells: 41
+    Duration: 87.9916699
+Name: 19-32-09_22-12-2020
+    Max Border Cells: 53
+    Duration: 11.8771917
+Name: 19-32-28_22-12-2020
+    Max Border Cells: 52
+    Duration: 16.8387302
+Name: 19-32-47_22-12-2020
+    Max Border Cells: 32
+    Duration: 16.4966684
+Name: 19-32-57_22-12-2020
+    Max Border Cells: 38
+    Duration: 8.3379293
+Name: 19-33-21_22-12-2020
+    Max Border Cells: 36
+    Duration: 21.6742495
+Name: 19-34-54_22-12-2020
+    Max Border Cells: 46
+    Duration: 91.6925424
+Name: 19-37-32_22-12-2020
+    Max Border Cells: 45
+    Duration: 35.2754473
+Name: 19-37-41_22-12-2020
+    Max Border Cells: 27
+    Duration: 6.4909652
+Name: 19-37-49_22-12-2020
+    Max Border Cells: 28
+    Duration: 6.3936394
+Name: 19-37-55_22-12-2020
+    Max Border Cells: 35
+    Duration: 3.5358106
+Name: 19-38-13_22-12-2020
+    Max Border Cells: 43
+    Duration: 16.2481749
+Name: 19-38-21_22-12-2020
+    Max Border Cells: 37
+    Duration: 6.2657325
+Name: 19-38-47_22-12-2020
+    Max Border Cells: 41
+    Duration: 23.9591895
+Name: 19-39-04_22-12-2020
+    Max Border Cells: 44
+    Duration: 15.3510924
+Name: 19-39-25_22-12-2020
+    Max Border Cells: 38
+    Duration: 18.3542857
+Name: 19-39-32_22-12-2020
+    Max Border Cells: 28
+    Duration: 5.9132836
+Name: 19-39-40_22-12-2020
+    Max Border Cells: 31
+    Duration: 5.8293962
+Name: 19-40-06_22-12-2020
+    Max Border Cells: 39
+    Duration: 23.8117131
+Name: 19-40-10_22-12-2020
+    Max Border Cells: 26
+    Duration: 2.3314689
+Name: 19-40-24_22-12-2020
+    Max Border Cells: 28
+    Duration: 11.7856384
+Name: 19-40-31_22-12-2020
+    Max Border Cells: 26
+    Duration: 4.9396264
+Name: 19-41-44_22-12-2020
+    Max Border Cells: 37
+    Duration: 71.1709796
+Name: 19-42-01_22-12-2020
+    Max Border Cells: 44
+    Duration: 14.9236695
+Name: 19-42-07_22-12-2020
+    Max Border Cells: 27
+    Duration: 4.0699588
+Name: 19-42-19_22-12-2020
+    Max Border Cells: 52
+    Duration: 10.3183431
+Name: 19-42-30_22-12-2020
+    Max Border Cells: 34
+    Duration: 9.2266062
+Name: 19-42-39_22-12-2020
+    Max Border Cells: 35
+    Duration: 6.9704279
+Name: 19-42-52_22-12-2020
+    Max Border Cells: 39
+    Duration: 8.0932722

@@ -1,0 +1,85 @@
+
+Name: 22-14-25_05-01-2021
+    Max Border Cells: 55
+    Duration: 16.9937392
+Name: 22-14-28_05-01-2021
+    Max Border Cells: 12
+    Duration: 0.265931
+Name: 22-14-49_05-01-2021
+    Max Border Cells: 64
+    Duration: 19.1830648
+Name: 22-14-51_05-01-2021
+    Max Border Cells: 74
+    Duration: 0.3789763
+Name: 22-14-54_05-01-2021
+    Max Border Cells: 65
+    Duration: 1.0480362
+Name: 22-14-57_05-01-2021
+    Max Border Cells: 37
+    Duration: 0.5441365
+Name: 22-14-59_05-01-2021
+    Max Border Cells: 40
+    Duration: 0.4010864
+Name: 22-15-01_05-01-2021
+    Max Border Cells: 65
+    Duration: 0.3534279
+Name: 22-15-04_05-01-2021
+    Max Border Cells: 51
+    Duration: 0.7228836
+Name: 22-15-09_05-01-2021
+    Max Border Cells: 77
+    Duration: 2.9118312
+Name: 22-15-11_05-01-2021
+    Max Border Cells: 54
+    Duration: 0.302988
+Name: 22-15-13_05-01-2021
+    Max Border Cells: 17
+    Duration: 0.2650713
+Name: 22-15-26_05-01-2021
+    Max Border Cells: 68
+    Duration: 10.3738439
+Name: 22-15-28_05-01-2021
+    Max Border Cells: 28
+    Duration: 0.3505665
+Name: 22-15-30_05-01-2021
+    Max Border Cells: 93
+    Duration: 0.354818
+Name: 22-15-33_05-01-2021
+    Max Border Cells: 59
+    Duration: 0.5426651
+Name: 22-15-37_05-01-2021
+    Max Border Cells: 34
+    Duration: 1.9050485
+Name: 22-15-39_05-01-2021
+    Max Border Cells: 54
+    Duration: 0.3450778
+Name: 22-15-41_05-01-2021
+    Max Border Cells: 43
+    Duration: 0.5726218
+Name: 22-15-45_05-01-2021
+    Max Border Cells: 61
+    Duration: 1.219665
+Name: 22-15-49_05-01-2021
+    Max Border Cells: 71
+    Duration: 1.9842736
+Name: 22-15-51_05-01-2021
+    Max Border Cells: 42
+    Duration: 0.4423819
+Name: 22-35-07_05-01-2021
+    Max Border Cells: 63
+    Duration: 0.3610628
+Name: 22-35-11_05-01-2021
+    Max Border Cells: 75
+    Duration: 2.1264665
+Name: 22-35-13_05-01-2021
+    Max Border Cells: 81
+    Duration: 0.4333867
+Name: 22-35-16_05-01-2021
+    Max Border Cells: 65
+    Duration: 0.7391632
+Name: 22-35-18_05-01-2021
+    Max Border Cells: 66
+    Duration: 0.3431109
+Name: 22-35-35_05-01-2021
+    Max Border Cells: 48
+    Duration: 15.2104955

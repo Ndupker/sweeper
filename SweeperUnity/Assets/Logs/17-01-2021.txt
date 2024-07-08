@@ -1,0 +1,130 @@
+
+Name: 17-11-11_17-01-2021
+    Max Border Cells: 8
+    Duration: 0.009481
+Name: 17-11-13_17-01-2021
+    Max Border Cells: 11
+    Duration: 0.0054924
+Name: 17-11-15_17-01-2021
+    Max Border Cells: 23
+    Duration: 0.0060018
+Name: 17-11-17_17-01-2021
+    Max Border Cells: 11
+    Duration: 0.0044938
+Name: 17-11-19_17-01-2021
+    Max Border Cells: 11
+    Duration: 0.0045115
+Name: 17-11-21_17-01-2021
+    Max Border Cells: 20
+    Duration: 0.0074813
+Name: 17-11-23_17-01-2021
+    Max Border Cells: 26
+    Duration: 0.0974894
+Name: 17-11-25_17-01-2021
+    Max Border Cells: 21
+    Duration: 0.0154795
+Name: 17-11-27_17-01-2021
+    Max Border Cells: 22
+    Duration: 0.0204714
+Name: 17-11-29_17-01-2021
+    Max Border Cells: 33
+    Duration: 0.1432292
+Name: 17-11-31_17-01-2021
+    Max Border Cells: 11
+    Duration: 0.0049891
+Name: 17-11-33_17-01-2021
+    Max Border Cells: 30
+    Duration: 0.2112582
+Name: 17-11-35_17-01-2021
+    Max Border Cells: 26
+    Duration: 0.012494
+Name: 17-11-37_17-01-2021
+    Max Border Cells: 37
+    Duration: 0.1656663
+Name: 17-11-39_17-01-2021
+    Max Border Cells: 36
+    Duration: 0.244671
+Name: 17-11-41_17-01-2021
+    Max Border Cells: 26
+    Duration: 0.0204773
+Name: 17-11-44_17-01-2021
+    Max Border Cells: 36
+    Duration: 0.2859628
+Name: 17-11-46_17-01-2021
+    Max Border Cells: 14
+    Duration: 0.0088438
+Name: 17-11-48_17-01-2021
+    Max Border Cells: 17
+    Duration: 0.0134817
+Name: 17-11-57_17-01-2021
+    Max Border Cells: 46
+    Duration: 7.9925837
+Name: 17-11-59_17-01-2021
+    Max Border Cells: 17
+    Duration: 0.0149868
+Name: 17-12-01_17-01-2021
+    Max Border Cells: 20
+    Duration: 0.015978
+Name: 17-12-04_17-01-2021
+    Max Border Cells: 17
+    Duration: 0.0155266
+Name: 17-12-06_17-01-2021
+    Max Border Cells: 22
+    Duration: 0.0179928
+Name: 17-12-08_17-01-2021
+    Max Border Cells: 16
+    Duration: 0.0064881
+Name: 17-12-10_17-01-2021
+    Max Border Cells: 25
+    Duration: 0.0234794
+Name: 17-12-12_17-01-2021
+    Max Border Cells: 26
+    Duration: 0.1840399
+Name: 17-12-14_17-01-2021
+    Max Border Cells: 25
+    Duration: 0.0334481
+Name: 17-12-16_17-01-2021
+    Max Border Cells: 18
+    Duration: 0.0216471
+Name: 17-12-18_17-01-2021
+    Max Border Cells: 22
+    Duration: 0.0115762
+Name: 17-12-20_17-01-2021
+    Max Border Cells: 22
+    Duration: 0.0200314
+Name: 17-12-22_17-01-2021
+    Max Border Cells: 17
+    Duration: 0.0171011
+Name: 17-12-24_17-01-2021
+    Max Border Cells: 27
+    Duration: 0.0336941
+Name: 17-12-26_17-01-2021
+    Max Border Cells: 12
+    Duration: 0.0146571
+Name: 17-12-28_17-01-2021
+    Max Border Cells: 11
+    Duration: 0.0049863
+Name: 17-12-30_17-01-2021
+    Max Border Cells: 10
+    Duration: 0.004498
+Name: 17-12-32_17-01-2021
+    Max Border Cells: 0
+    Duration: 0.0025039
+Name: 17-12-34_17-01-2021
+    Max Border Cells: 10
+    Duration: 0.0044934
+Name: 17-12-36_17-01-2021
+    Max Border Cells: 16
+    Duration: 0.0054918
+Name: 17-12-38_17-01-2021
+    Max Border Cells: 4
+    Duration: 0.0029891
+Name: 17-12-40_17-01-2021
+    Max Border Cells: 20
+    Duration: 0.0244522
+Name: 17-12-43_17-01-2021
+    Max Border Cells: 31
+    Duration: 0.1659111
+Name: 17-12-45_17-01-2021
+    Max Border Cells: 24
+    Duration: 0.0424931

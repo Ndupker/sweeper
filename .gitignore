@@ -1,0 +1,7 @@
+﻿SweeperUnity/.vs
+*.csproj
+SweeperUnity/Library
+SweeperUnity/Temp/
+*.sln
+*.cache
+SweeperUnity/obj/*
