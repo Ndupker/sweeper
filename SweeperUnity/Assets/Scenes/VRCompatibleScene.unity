@@ -1930,7 +1930,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &519420029
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2709,7 +2709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 229aed425e305884a9e8607dd574e610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _viewMode: 1
+  _viewMode: 0
   _defaultGO: {fileID: 519420028}
   _defaultCam: {fileID: 519420031}
   _VRGO: {fileID: 1594308571}
@@ -4387,7 +4387,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1256098100
 Transform:
   m_ObjectHideFlags: 0
@@ -6595,7 +6595,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1594308573
 Transform:
   m_ObjectHideFlags: 0
@@ -8472,8 +8472,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 241619119735519699, guid: e4be17c16ad571f4c946a483b886c327,
-        type: 3}
+    - target: {fileID: 0}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
@@ -8481,7 +8480,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b20af158199ba6f4a96c0a562803f7f5, type: 2}
+      objectReference: {fileID: 2100000, guid: aa7e808d033a53841ae2fb7c67e9c833, type: 2}
     - target: {fileID: 7223066001336799228, guid: e4be17c16ad571f4c946a483b886c327,
         type: 3}
       propertyPath: m_RootOrder
