@@ -1073,6 +1073,7 @@ public class Map : MonoBehaviour, IMineMenu
     bool _wasDown = false;
     float _timeDown = 0f;
     bool _inSaveLoop = false;
+    Vector3 _initialPos = Vector3.zero;
     IEnumerator RepeatedlySaveMaps()
     {
         if (_inSaveLoop)
@@ -1281,36 +1282,83 @@ public class Map : MonoBehaviour, IMineMenu
         {
             if (_viewManager._viewMode == ViewMode.Normal)
             {
+                bool uncover = false;
+                bool mark = false;
+
+                RaycastHit hit;
                 if (Input.GetMouseButtonDown(0))
                 {
-                    RaycastHit hit;
+                    _wasDown = true;
+                    _rotating = true;
                     if (Physics.Raycast(_camera.ScreenPointToRay(Input.mousePosition), out hit))
                     {
                         CellComponent cell = hit.collider.GetComponent<CellComponent>();
-                        UncoverAtPos(cell._pos);
+                        _initialPos = cell._pos;
                     }
                     else
-                        _rotating = true;
+                        _initialPos = new Vector3(-1, -1, -1);
                 }
-                else if (Input.GetMouseButtonUp(0))
-                    _rotating = false;
-
-                else if (Input.GetMouseButton(0) && _rotating)
+                if (_wasDown)
                 {
-
-                    float speed = 10f;
-                    _centerPoint.transform.Rotate(Vector3.up, -(Input.GetAxis("Mouse X") * speed), Space.World);
-                    _centerPoint.transform.Rotate(Vector3.right, Input.GetAxis("Mouse Y") * speed, Space.World);
+                    _timeDown += Time.deltaTime;
+                    if (_timeDown >= 0.4f)
+                    {
+                        _timeDown = 0;
+                        mark = true;
+                        _wasDown = false;
+                    }
+                    else if (!Input.GetMouseButton(0) || Input.GetMouseButtonUp(0))
+                    {
+                        _timeDown = 0;
+                        _rotating = false;
+                        uncover = true;
+                        _wasDown = false;
+                    }
                 }
-                else if (!_generated)
-                    return;
-                else if (Input.GetMouseButtonDown(1))
+
+
+                if (uncover)
                 {
-                    RaycastHit hit;
                     if (Physics.Raycast(_camera.ScreenPointToRay(Input.mousePosition), out hit))
                     {
                         CellComponent cell = hit.collider.GetComponent<CellComponent>();
-                        ToggleMark(_cells[(int)cell._pos.x, (int)cell._pos.y, (int)cell._pos.z]);
+                        if (cell != null && cell._pos == _initialPos)
+                        {
+                            UncoverAtPos(cell._pos);
+                        }
+                    }
+                }
+
+                if (_rotating)
+                {
+                    if (!Input.GetMouseButton(0) || Input.GetMouseButtonUp(0))
+                        _rotating = false;
+                    else
+                    {
+                        float speed = 10f;
+                        _centerPoint.transform.Rotate(Vector3.up, -(Input.GetAxis("Mouse X") * speed), Space.World);
+                        _centerPoint.transform.Rotate(Vector3.right, Input.GetAxis("Mouse Y") * speed, Space.World);
+                    }
+                }
+
+                if (!_generated)
+                {
+                    mark = false;
+                    return;
+                }
+
+                if (mark || Input.GetMouseButtonDown(1))
+                {
+                    if (Physics.Raycast(_camera.ScreenPointToRay(Input.mousePosition), out hit))
+                    {
+                        CellComponent cell = hit.collider.GetComponent<CellComponent>();
+                        if (cell != null && (Input.GetMouseButtonDown(1) || cell._pos == _initialPos))
+                        {
+#if UNITY_ANDROID
+                            Handheld.Vibrate();
+#endif
+                            ToggleMark(_cells[(int)cell._pos.x, (int)cell._pos.y, (int)cell._pos.z]);
+                        }
                     }
                 }
             }
@@ -1341,49 +1389,60 @@ public class Map : MonoBehaviour, IMineMenu
         {
             bool uncover = false;
             bool mark = false;
-            /*#if UNITY_ANDROID
-                    if (Input.GetMouseButtonDown(0))
-                        _wasDown = true;
-                    if (_wasDown)
-                    {
-                        _timeDown += Time.deltaTime;
-                        if (_timeDown >= 0.4f)
-                        {
-                            _timeDown = 0;
-                            mark = true;
-                            _wasDown = false;
-                            Handheld.Vibrate();
-                        }
-                        else if (!Input.GetMouseButton(0) || Input.GetMouseButtonUp(0))
-                        {
-                            _timeDown = 0;
-                            uncover = true;
-                            _wasDown = false;
-                        }
-                    }
-            #else*/
+            Vector3 worldPoint;
+            if (Input.GetMouseButtonDown(0))
+            {
+                _wasDown = true;
 
-            //TODO 3D alternative, probably colliders and raycasts
-            uncover = Input.GetMouseButtonDown(0);
-            mark = Input.GetMouseButtonDown(1);
-            //#endif
+                if (GetWorldPoint(out worldPoint))
+                {
+                    _initialPos = worldPoint;
+                }
+                else
+                    _initialPos = new Vector3(-1, -1, -1);
+            }
+            if (_wasDown)
+            {
+                _timeDown += Time.deltaTime;
+                if (_timeDown >= 0.4f)
+                {
+                    _timeDown = 0;
+                    mark = true;
+                    _wasDown = false;
+                }
+                else if (!Input.GetMouseButton(0) || Input.GetMouseButtonUp(0))
+                {
+                    _timeDown = 0;
+                    uncover = true;
+                    _wasDown = false;
+                }
+            }
 
             if (uncover)
             {
-                Vector3 worldPoint;
                 if (GetWorldPoint(out worldPoint))
                 {
-                    UncoverAtPos(worldPoint);
+                    if(worldPoint == _initialPos)
+                        UncoverAtPos(worldPoint);
                 }
             }
             if (!_generated)
-                return;
-            if (mark)
             {
-                Vector3 worldPoint;
+                mark = false;
+                return;
+            }
+
+            if (mark || Input.GetMouseButtonDown(1))
+            {
                 if (GetWorldPoint(out worldPoint))
                 {
-                    ToggleMark(_cells[(int)worldPoint.x, (int)worldPoint.y, (int)worldPoint.z]);
+                    if (worldPoint == _initialPos || Input.GetMouseButtonDown(1))
+                    {
+#if UNITY_ANDROID
+                        Handheld.Vibrate();
+#endif
+                        ToggleMark(_cells[(int)worldPoint.x, (int)worldPoint.y, (int)worldPoint.z]);
+                    }
                 }
             }
         }
