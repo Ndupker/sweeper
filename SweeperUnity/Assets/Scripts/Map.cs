@@ -1407,7 +1407,9 @@ public class Map : MonoBehaviour, IMineMenu
                 if (_timeDown >= 0.4f)
                 {
                     _timeDown = 0;
+#if UNITY_ANDROID
                     mark = true;
+#endif
                     _wasDown = false;
                 }
                 else if (!Input.GetMouseButton(0) || Input.GetMouseButtonUp(0))
