@@ -42,7 +42,9 @@ public class ViewManager : MonoBehaviour
     {
         _viewManager = this;
         _defaultGO.SetActive(_viewMode == ViewMode.Normal);
-        _VRGO.SetActive(_viewMode == ViewMode.VR);
-        _VRWorld.SetActive(_viewMode == ViewMode.VR);
+        if(_VRGO != null)
+            _VRGO.SetActive(_viewMode == ViewMode.VR);
+        if (_VRWorld != null)
+            _VRWorld.SetActive(_viewMode == ViewMode.VR);
     } 
 }

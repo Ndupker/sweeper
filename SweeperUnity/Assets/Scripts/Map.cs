@@ -233,7 +233,8 @@ public class Map : MonoBehaviour, IMineMenu
         get { return _minesLeftToFind; }
         set { _minesLeftToFind = value;
             _mineCountUI.text = value.ToString("00");
-            _vrMineCountUI.text = value.ToString("00");
+            if(_vrMineCountUI != null)
+                _vrMineCountUI.text = value.ToString("00");
         }
     }
 
@@ -276,11 +277,16 @@ public class Map : MonoBehaviour, IMineMenu
             _gameMenu.gameObject.SetActive(false);
         else
         {
-            _vrMineCountUI.enabled = false;
-            _leftRaycastObj.SetActive(true);
-            _rightRaycastObj.SetActive(true);
-            _leftVRController.SetMapInteraction(false);
-            _rightVRController.SetMapInteraction(false);
+            if(_vrMineCountUI != null)
+                _vrMineCountUI.enabled = false;
+            if(_leftRaycastObj != null)
+                _leftRaycastObj.SetActive(true);
+            if (_rightRaycastObj != null)
+                _rightRaycastObj.SetActive(true);
+            if(_leftVRController != null)
+                _leftVRController.SetMapInteraction(false);
+            if (_rightVRController != null)
+                _rightVRController.SetMapInteraction(false);
         }
     }
 
@@ -291,11 +297,16 @@ public class Map : MonoBehaviour, IMineMenu
             _gameMenu.gameObject.SetActive(true);
         else
         {
-            _vrMineCountUI.enabled = true;
-            _leftRaycastObj.SetActive(false);
-            _rightRaycastObj.SetActive(false);
-            _leftVRController.SetMapInteraction(true);
-            _rightVRController.SetMapInteraction(true);
+            if (_vrMineCountUI != null)
+                _vrMineCountUI.enabled = true;
+            if (_leftRaycastObj != null)
+                _leftRaycastObj.SetActive(false);
+            if (_rightRaycastObj != null)
+                _rightRaycastObj.SetActive(false);
+            if (_leftVRController != null)
+                _leftVRController.SetMapInteraction(true);
+            if (_rightVRController != null)
+                _rightVRController.SetMapInteraction(true);
         }
     }
 
@@ -758,8 +769,8 @@ public class Map : MonoBehaviour, IMineMenu
                     _gameManager.GameLose();
                     if (ViewManager.instance._viewMode == ViewMode.VR)
                     {
-                        StartCoroutine(ControllerCollider.TriggerHaptics(OVRInput.Controller.LTouch, 1f, 1f));
-                        StartCoroutine(ControllerCollider.TriggerHaptics(OVRInput.Controller.RTouch, 1f, 1f));
+                        //StartCoroutine(ControllerCollider.TriggerHaptics(OVRInput.Controller.LTouch, 1f, 1f));
+                        //StartCoroutine(ControllerCollider.TriggerHaptics(OVRInput.Controller.RTouch, 1f, 1f));
                         _leftVRController.SetMapInteraction(false);
                         _rightVRController.SetMapInteraction(false);
                     }
@@ -1215,7 +1226,7 @@ public class Map : MonoBehaviour, IMineMenu
             StartCoroutine(RepeatedlySaveMaps());
             return;
         }
-        if (_mapType == MapType._3D && _viewManager._viewMode == ViewMode.VR)
+        /*if (_mapType == MapType._3D && _viewManager._viewMode == ViewMode.VR)
         {
             if (_centerPoint == null || _mapParent == null)
             {
@@ -1258,7 +1269,7 @@ public class Map : MonoBehaviour, IMineMenu
                 _hasStoredControllerPosLeft = false;
                 _hasStoredControllerPosRight = false;
             }
-        }
+        }*/
         if (!_menuActive)
         {
             _rotating = false;
@@ -1303,7 +1314,7 @@ public class Map : MonoBehaviour, IMineMenu
                     }
                 }
             }
-            else//VR
+            /*else//VR
             {
                 if (_centerPoint != null && _mapParent != null)
                 {
@@ -1324,7 +1335,7 @@ public class Map : MonoBehaviour, IMineMenu
                         }
                     }
                 }
-            }
+            }*/
         }
         else
         {

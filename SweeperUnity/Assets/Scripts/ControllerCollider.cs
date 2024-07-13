@@ -8,8 +8,10 @@ public class ControllerCollider : MonoBehaviour
     List<Collider> _currentCollisions = new List<Collider>();
     List<CellComponent> _currentCells = new List<CellComponent>();
     public Map _map = null;
+    /*
     public OVRInput.Controller controllerType = OVRInput.Controller.LTouch;
     public OVRInput.RawButton uiButtonSelect = OVRInput.RawButton.LIndexTrigger;
+    */
     VRUI _highlightedUI = null;
     bool _allowedToInteractWithMap = false;
     private void OnTriggerEnter(Collider other)
@@ -53,19 +55,19 @@ public class ControllerCollider : MonoBehaviour
             _currentCells.RemoveAt(id);
         }
     }
-    public static IEnumerator TriggerHaptics(OVRInput.Controller controllerType, float vibrationLevel, float time)
+    /*public static IEnumerator TriggerHaptics(OVRInput.Controller controllerType, float vibrationLevel, float time)
     {
         OVRInput.SetControllerVibration(vibrationLevel, vibrationLevel, controllerType);
         yield return new WaitForSeconds(time);
         OVRInput.SetControllerVibration(0f, 0f, controllerType);
-    }
+    }*/
     void SetSelected(Collider collider, bool selected)
     {
         if (selected)
         {
             if (_closestCollider != collider)
             {
-                StartCoroutine(TriggerHaptics(controllerType, 0.2f, 0.05f));
+                //StartCoroutine(TriggerHaptics(controllerType, 0.2f, 0.05f));
             }
             _closestCollider = collider;
         }
@@ -150,7 +152,7 @@ public class ControllerCollider : MonoBehaviour
                     }
                     _highlightedUI = vrui;
                     _highlightedUI.Highlighted = true;
-                    StartCoroutine(TriggerHaptics(controllerType, 0.2f, 0.05f));
+                    //StartCoroutine(TriggerHaptics(controllerType, 0.2f, 0.05f));
                 }
             }
             else if (_highlightedUI != null)
@@ -165,10 +167,10 @@ public class ControllerCollider : MonoBehaviour
             _highlightedUI = null;
         }
 
-        if (OVRInput.GetDown(uiButtonSelect, controllerType))
+        /*if (OVRInput.GetDown(uiButtonSelect, controllerType))
         {
             if (_highlightedUI != null)
                 _highlightedUI.Select();
-        }
+        }*/
     }
 }
