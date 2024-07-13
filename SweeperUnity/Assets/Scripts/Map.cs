@@ -185,7 +185,7 @@ public class Map : MonoBehaviour, IMineMenu
     public Material _3DYellow;
     public Material _3DSelectedGray;
     public Material _3DSelectedYellow;
-    public Text _mineCountUI;
+    public TMPro.TextMeshProUGUI _mineCountUI;
     public TMPro.TextMeshPro _vrMineCountUI;
     public GameObject _gameMenu;
     public ControllerCollider _leftVRController;
